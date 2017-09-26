@@ -13,7 +13,7 @@ public interface InterfaceApotheke {
 	String getOrt();
 	String getTel();
 	String getDistance();
-	String isActive(); //Die Apotheke ist aktiviert
-	String isBereitschaft(); //Die Apotheke hat Bereitschaft	
+	Boolean isActive(); //Die Apotheke ist aktiviert
+	Boolean isBereitschaft(); //Die Apotheke hat Bereitschaft	
 
 }
